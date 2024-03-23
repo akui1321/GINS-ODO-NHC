@@ -26,7 +26,7 @@
 
 新的数据运行时，需要修改ProcessConfig.m文件中的文件 路径和初始信息配置
 
-dataset里面是大作业的数据，ProcessConfig.m对应大作业的配置文件  REF_NAV.nav是参考真值
+dataset里面是数据，ProcessConfig.m对应配置文件  REF_NAV.nav是参考真值
 
 odo.bin 是处理过的ODO数据，补偿了ODO传感器的比例因子误差，所以程序里面没有估计ODO的比例因子
 
